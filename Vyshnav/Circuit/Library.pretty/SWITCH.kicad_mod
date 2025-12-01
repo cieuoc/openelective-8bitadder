@@ -1,0 +1,108 @@
+(footprint "SWITCH"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 17.78 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "29b0cf34-708a-430b-8542-176fea5fb3d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LED SWITCH"
+		(at -12.7 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7b048a97-84b6-4957-8ec5-cfcb4c476a0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2e827b3-bbb1-4bcd-814a-2ec0ba3bc17f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "835c478b-b360-4937-8bad-44514f395570")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 12 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0280696e-dddf-48f5-88a1-ec41fce287f2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 20.78 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5de379d8-c0b7-4b61-b63f-bd4ece13e0f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 7.0358)
+		(size 6.95 3.06)
+		(drill oval 5.2 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "cc8b15aa-96e3-444a-8e74-cf781ab29c0d")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 0)
+		(size 6.95 3.06)
+		(drill oval 5.2 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "f6f1dd38-1743-424d-b3e5-27a423c63407")
+	)
+	(pad "3" thru_hole roundrect
+		(at -0.0254 -7.0104)
+		(size 6.95 3.06)
+		(drill oval 5.2 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "eb186b49-fd95-4846-bcd7-42911d4cdc26")
+	)
+	(embedded_fonts no)
+)
