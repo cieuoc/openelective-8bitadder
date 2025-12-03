@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "adder footprint")(type "KiCad")(uri "${KIPRJMOD}/adder footprint.pretty")(options "")(descr ""))
+)
