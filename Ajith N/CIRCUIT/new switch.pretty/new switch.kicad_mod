@@ -1,0 +1,108 @@
+(footprint "new switch"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "switch**"
+		(at 0.5 -14 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f9c35e55-6e8a-4958-ab36-6b0e653f3202")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "new switch"
+		(at 0 13.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "589ff6ed-aca2-4dd8-92b2-c936d76ad904")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "193ff441-849a-44e9-8802-68e2006fb10b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95323d43-5a05-44b2-a1f3-5cc9cc1fcc75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 12 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "dc09a06f-657a-48f6-a33b-770adff8286f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1 16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e85da966-5560-404a-86b5-e2f66de5ecb5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 7)
+		(size 6.95 3.86)
+		(drill oval 5.12 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "cf6de3fd-b379-49eb-814d-95f45ac5041a")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 0)
+		(size 6.95 3.86)
+		(drill oval 5.12 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "182b68d4-7fad-471c-ad54-adf7e9f8a5f4")
+	)
+	(pad "3" thru_hole roundrect
+		(at 0 -7)
+		(size 6.95 3.86)
+		(drill oval 5.12 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "261e9795-6512-42fb-afaf-f60dee13b166")
+	)
+	(embedded_fonts no)
+)
