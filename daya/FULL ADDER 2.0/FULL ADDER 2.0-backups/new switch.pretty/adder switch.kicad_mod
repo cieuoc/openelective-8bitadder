@@ -1,0 +1,108 @@
+(footprint "adder switch"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c94236a8-a8dd-4095-9d77-3078f721ee87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "adder switch"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b30ee2f3-5b7d-42e7-9280-51d52e6b1a0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe702061-7d6e-4829-b5cf-101956cdf906")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "587181e1-58f7-4e3c-b23f-b54e97cf94f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 12 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "32779a41-49c8-4425-bedb-c6d5201377b8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b705e60c-0a43-421f-afe1-ed125d6c754e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 -7)
+		(size 6.95 3.06)
+		(drill oval 5.2 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "8f4911d8-1ae1-46e3-854c-c14e8d2bfed2")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 0)
+		(size 6.95 3.06)
+		(drill oval 5.2 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "7818b93a-d4c6-4faa-8e65-37c4537601e6")
+	)
+	(pad "3" thru_hole roundrect
+		(at 0 7)
+		(size 6.95 3.06)
+		(drill oval 5.2 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "cc2bead4-0ce0-48fe-83b3-14894b61f662")
+	)
+	(embedded_fonts no)
+)
